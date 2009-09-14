@@ -1,6 +1,6 @@
 %define module   CGI-Application-Plugin-DBH
 %define version    4.00
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{module}
 Version:    %{version}
