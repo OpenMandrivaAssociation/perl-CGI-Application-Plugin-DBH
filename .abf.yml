@@ -1,2 +1,4 @@
+removed_sources:
+  CGI-Application-Plugin-DBH-4.00.tar.gz: 41d4b4587ae59e7b5518a76583172c501aa621ab
 sources:
-  "CGI-Application-Plugin-DBH-4.00.tar.gz": 41d4b4587ae59e7b5518a76583172c501aa621ab
+  CGI-Application-Plugin-DBH-4.01.tar.gz: b375ee32e8c4c2df3666be278273b0b99d52a03c
