@@ -1,6 +1,5 @@
 %define upstream_name    CGI-Application-Plugin-DBH
-%define upstream_version 4.00
-
+%define upstream_version 4.01
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 4.01
 Release:	1
