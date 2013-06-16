@@ -15,6 +15,8 @@ BuildRequires:	perl(CGI::Application)
 BuildRequires:	perl(DBD::Mock)
 BuildRequires:	perl(DBI)
 BuildRequires:	perl(Module::Build::Compat)
+BuildRequires:	perl(Test::Pod)
+BuildRequires:	perl(Test::MockObject)
 
 BuildArch:	noarch
 
