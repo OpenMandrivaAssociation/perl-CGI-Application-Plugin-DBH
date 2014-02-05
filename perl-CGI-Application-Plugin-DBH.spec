@@ -1,14 +1,14 @@
 %define upstream_name    CGI-Application-Plugin-DBH
-%define upstream_version 4.01
+%define upstream_version 4.04
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 4.01
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Easy DBI access from CGI::Application
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/CGI/CGI-Application-Plugin-DBH-4.01.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/CGI/CGI-Application-Plugin-DBH-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(CGI::Application)
@@ -65,5 +65,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Wed Nov 26 2008 cpan2dist 4.00-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
