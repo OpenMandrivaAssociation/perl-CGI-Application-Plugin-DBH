@@ -2,7 +2,7 @@
 %define upstream_version 4.04
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Easy DBI access from CGI::Application
 License:	GPL+ or Artistic
