@@ -1,14 +1,13 @@
 %define upstream_name    CGI-Application-Plugin-DBH
-%define upstream_version 4.04
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	4.04
+Release:	5
 
 Summary:	Easy DBI access from CGI::Application
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/frioux/CGI-Application-Plugin-DBH
-Source0:	https://cpan.metacpan.org/authors/id/F/FR/FREW/CGI-Application-Plugin-DBH-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/F/FR/FREW/CGI-Application-Plugin-DBH-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -29,7 +28,7 @@ request. In other words, the database connection is not created until it is
 actually needed. 
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -53,9 +52,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Feb 12 2010 Jérôme Quelin <jquelin@mandriva.org> 4.0.0-1mdv2011.0
 + Revision: 504596
-- rebuild using %%perl_convert_version
-
-* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 4.00-2mdv2010.0
+- rebuild using %4.04 Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 4.00-2mdv2010.0
 + Revision: 440536
 - rebuild
 
